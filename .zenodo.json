@@ -1,0 +1,54 @@
+{
+  "title": "Verifier-Side Silent Failures: A Taxonomy and a Negative-Control Test Method for Automated Verifiers in Agentic AI Governance",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>Automated verifiers — CI gates, test harnesses, compliance checkers, AI-agent output validators — can fail in a way that is structurally invisible: the verification step reports <em>success</em> while the property being checked was never actually exercised. We call these <strong>verifier-side silent failures</strong>. Building on a prior catalog of fourteen silent-failure modes, this paper (1) taxonomizes the verifier-side subset, (2) derives a negative-control test method in which every self-check of a verifier must carry a deliberately broken twin whose expected failure is asserted, and (3) demonstrates the method on a worked example: gate register Q0-Q6 from a regulatory annex (FG-TIDA use-case), cross-walked against four silent-failure cases and three simulation profiles (ordinary, defended, complete).</p><p>The shared root cause is that <strong>the absence of evidence is recorded as evidence of absence of a problem</strong>. Two mechanical consequences follow: a missing check must enter the exit code, and no negative control means no evidence. We position the method against related work on test oracles, TOCTTOU in agentic pipelines, and pre-registered intervention-based agent evaluation.</p><p>License split: the manuscript text is all rights reserved by the author, with citation under attribution permitted; accompanying code artifacts referenced by the paper (silent-failure catalog, S5-Qregister example) are MIT. This preprint is not affiliated with any vendor or standards body, and claims no conformance with any standard.</p>",
+  "creators": [
+    {
+      "name": "Zhao, Xinghua",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0001-0512-1237"
+    }
+  ],
+  "license": "other-open",
+  "access_right": "open",
+  "language": "eng",
+  "version": "v1.0.0",
+  "keywords": [
+    "silent failure",
+    "negative control",
+    "verifier",
+    "agentic AI",
+    "CI gates",
+    "mutation testing",
+    "TOCTTOU",
+    "governance",
+    "test oracles",
+    "AI agents"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/zhaoxinghua09-cell/paper1-verifier-side-silent-failures",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23051637",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.22821834",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://orcid.org/0009-0001-0512-1237",
+      "relation": "isCompiledBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "License split: manuscript text = all rights reserved by the author, with citation under attribution permitted; referenced code artifacts (silent-failure catalog, S5-Qregister example) = MIT. The 'other-open' license code is used because Zenodo records a single license and this deposit is deliberately split-licensed. Rights holder verification: https://orcid.org/0009-0001-0512-1237."
+}
