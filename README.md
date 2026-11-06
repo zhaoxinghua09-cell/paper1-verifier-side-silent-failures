@@ -22,7 +22,8 @@ A standalone paper building on the [Silent-Failure Catalog](https://github.com/z
 
 ## License (split)
 
-- **Manuscript text**: © 2026 赵兴华 / Steven Zhao·China. **All rights reserved**, with citation under attribution permitted.
+- **Manuscript text**: © 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
+  Citation under attribution is permitted.
 - **Referenced code artifacts** (silent-failure catalog, S5-Qregister example): **MIT**.
 
 See `LICENSE-NOTICE.md` for the authoritative rights statement.
