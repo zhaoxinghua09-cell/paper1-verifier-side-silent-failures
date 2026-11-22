@@ -1,7 +1,7 @@
 {
   "schema": "ai-manifest/v1",
   "repository": "zhaoxinghua09-cell/paper1-verifier-side-silent-failures",
-  "role": "规范/投稿仓：加 .well-known/ai.json + README 首屏窄声明",
+  "role": "Paper repo: manuscript plus negative-control evidence for the verifier-side silent-failure taxonomy; not a tool.",
   "what_it_is": "Paper 1: Verifier-Side Silent Failures — a taxonomy and negative-control test method for automated verifiers in agentic AI governance",
   "what_it_is_not": "Not a running commercial service. Not a third-party certification, compliance finding, or regulatory approval.",
   "reproduce": "See the README section \"运行测试 / Running the tests\"; commands are verbatim and require no private network.",
